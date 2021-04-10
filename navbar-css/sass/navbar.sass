@@ -1,0 +1,88 @@
+@import "./color"
+@import "./fonts"
+.navbar
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 10vh
+    
+    color: black
+    background-color: white
+
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+
+    .company-name
+        margin: 25px
+
+        font-size: x-large
+        color: inherit
+        a 
+            color: inherit
+            text-decoration: none
+            &:link
+                color: inherit
+            &:visited
+                color: inherit
+    .navbar-items
+        ul
+            list-style-type: none
+            display: flex
+            flex-direction: row
+            li
+                margin: 10px
+                padding: 5px
+                font-size: large 
+                color: inherit
+                a
+                    color: inherit
+                    &:visited
+                        color: inherit
+                    &:link
+                        color: inherit
+    .additional-bar
+        color: inherit
+        font-size: large
+        margin: 25px
+        a
+            margin: 5px
+            color: inherit
+            text-decoration: none
+            &:link
+                color: inherit
+            &:visited
+                color: inherit
+.dark
+    color: $dark-font-color
+    background-color: $dark
+.ligth
+    color: $light-font-color
+    background-color: $light
+.blue
+    color: $blue-font-color
+    background-color: $blue
+.red
+    color: $red-font-color
+    background-color: $red
+.green
+    color: $green-font-color
+    background-color: $green
+.yellow
+    color: $yellow-font-color
+    background-color: $yellow    
+.transparent
+    color: $tranparent-font-color
+    background-color: $tranparent
+.font-roboto
+    font-family: $font-familly-roboto
+.font-lato
+    font-family: $font-familly-lato
+.font-poppins
+    font-family: $font-familly-poppins
+
+
+    

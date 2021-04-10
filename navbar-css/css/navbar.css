@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .company-name {
+  margin: 25px;
+  font-size: x-large;
+  color: inherit;
+}
+.navbar .company-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar .company-name a:link {
+  color: inherit;
+}
+.navbar .company-name a:visited {
+  color: inherit;
+}
+.navbar .navbar-items ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.navbar .navbar-items ul li {
+  margin: 10px;
+  padding: 5px;
+  font-size: large;
+  color: inherit;
+}
+.navbar .navbar-items ul li a {
+  color: inherit;
+}
+.navbar .navbar-items ul li a:visited {
+  color: inherit;
+}
+.navbar .navbar-items ul li a:link {
+  color: inherit;
+}
+.navbar .additional-bar {
+  color: inherit;
+  font-size: large;
+  margin: 25px;
+}
+.navbar .additional-bar a {
+  margin: 5px;
+  color: inherit;
+  text-decoration: none;
+}
+.navbar .additional-bar a:link {
+  color: inherit;
+}
+.navbar .additional-bar a:visited {
+  color: inherit;
+}
+
+.dark {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.ligth {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.blue {
+  color: #ffffff;
+  background-color: #0b0c58;
+}
+
+.red {
+  color: #ffffff;
+  background-color: #791111;
+}
+
+.green {
+  color: #ffffff;
+  background-color: #17630d;
+}
+
+.yellow {
+  color: #ffffff;
+  background-color: #dfe20b;
+}
+
+.transparent {
+  color: #000000;
+  background-color: #ffffff00;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/*# sourceMappingURL=navbar.css.map */
